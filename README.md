@@ -31,45 +31,65 @@ The topics not covered during the sessions are marked with an emoji.
 
 ### Python 101
 
+#### Lesson 01
+
 - Built in data types: numbers 
 - Bytes, and strings. String interpolation, f-strings. 
-- Tuples, lists, dictionaries, sets. 
-- Packing/Unpacking, indexing, slicing. Mutability, sequences. 
-- Flow control: if, for, while.
-- Exception handling.  
+- Tuples, lists. 
 - Comprehensions
-- Function definitions. Positional and keyword arguments. Flexible arguments. Keyword only.  
+- Packing/Unpacking, indexing, slicing. Mutability, sequences. 
+
+#### Lesson 02
+
+- `Zip()` function.
+- Flow control: if, for, while.
+- dictionaries, sets. defaultdic
+
+#### Lesson 03
+
+- Function definitions. Positional and keyword arguments. Flexible arguments. Keyword only.
+- Namespaces.
+- Lambdas.
+
+#### Lesson 04
+
 - Typing. Python annotations: type hints. 
-- Generators. 
+- Generators.
+- Few useful builtin: zip, range, enumerate, sorted 
+- Exception handling.
+
+#### Lesson 05
+- Read and Write Files
 - Context managers
 - The file protocol. open, pathlib. 
-- Few useful builtin: zip, range, enumerate, sorted 
+- OOP
+- inheritance
+
+#### Lesson 06
+- Exception handling II.
 - Project layout: modules, packages, imports. 
 - Dive into the standard lib: collections, itertools, functools, datetime, csv, json, pickle, argparse
 - Beyond the stdlib: more_itertools, requests, docopt. :man_shrugging:
 
-### Pythonic object oriented programming
 
+#### Lesson 07
 - Data model. Sequences, generators, iterators and iterables in detail
 - Other nice “magic methods” 
 - Duck typing. Multiple inheritance. 
-- Abstract Base Classes  :man_shrugging:
-- Callable classes. 
-- Properties and descriptors. 
 - Decorators 
+- Properties and descriptors. 
+- Callable classes.
 - Dataclasses and namedtuples. 
+- Abstract Base Classes  :man_shrugging:
 - Introduction to higher-level metaprogramming features. :man_shrugging:
 
-### Debugging, testing and performance
 
+#### Lesson 08
 - Debugging with pdb/ipdb.
 - Pytest as framework and runner. Dependency injection, parametrization. 
 - Mock: patching, side_effects :man_shrugging:, autospec :man_shrugging:.
 - Simple tools for time and memory profiling. :man_shrugging:
-
-#### Concurrent programming :man_shrugging:
-
-- Concurrent basics: threading, multiprocess, concurrent.futures.
-- Asyncio. Main concepts. 
+- Concurrent basics: threading, multiprocess, concurrent.futures. :man_shrugging:
+- Asyncio. Main concepts.  :man_shrugging:
 
 
